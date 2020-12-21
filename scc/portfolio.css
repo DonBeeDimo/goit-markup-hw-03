@@ -6,6 +6,15 @@ li {
   list-style: none;
 }
 
+.section {
+  margin-top: 94px;
+  margin-bottom: 94px;
+}
+
+.filter-nav {
+  margin-bottom: 50px;
+}
+
 .filter-nav .nav {
   background-color: var(--background-color);
   color: var(--primary-text-color);
@@ -22,6 +31,8 @@ li {
 }
 
 .section-title {
+  margin-bottom: 4px;
+
   color: var(--primary-text-color);
 
   font-weight: bold;
