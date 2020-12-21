@@ -1,0 +1,110 @@
+/* Герой */
+
+.hero {
+  text-align: center;
+}
+
+.hero-title {
+  margin-top: 0;
+  margin-bottom: 30px;
+
+  color: var(--background-color);
+  background-color: var(--primary-text-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  }
+
+/* button */
+.service {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 10px 32px;
+  min-width: 200px;
+
+  background-color: var(--accent-color);
+  color: var(--background-color);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+}
+
+/* заголовки */
+.section-title {
+  margin-top: 0;
+  margin-bottom: 50px;
+
+  color: var(--primary-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+/* paragraph */
+
+.actions {
+  margin-bottom: 94px;
+
+  background-color: #ccc;
+}
+
+.section {
+  margin-top: 0;
+  margin-bottom: 94px;
+
+
+  background-color: #ccc;
+}
+
+.paragraph-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+
+  color: var(--primary-text-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.paragraph .title {
+  color: var(--title-text-color);
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* command-list */
+
+.command {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  margin-bottom: 0;
+
+
+}
+
+
+.command-person {
+  margin-bottom: 10px;
+
+  color: var(--primary-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+.command-list .title {
+  color: var(--title-text-color);
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+}

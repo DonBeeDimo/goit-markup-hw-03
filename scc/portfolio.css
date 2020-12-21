@@ -1,0 +1,42 @@
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.filter-nav .nav {
+  background-color: var(--background-color);
+  color: var(--primary-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+}
+
+.filter-nav .nav:hover,
+.filter-nav .nav:focus {
+  background-color: var(--accent-color);
+  color: var(--background-color);
+}
+
+.section-title {
+  color: var(--primary-text-color);
+
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.cart-list .title {
+  color: var(--title-text-color);
+
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+}
+
+.cart-list .style-hover {
+  color: var(--primary-text-color);
+}
