@@ -7,8 +7,8 @@ li {
 }
 
 .section {
-  margin-top: 94px;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .filter-nav {
@@ -28,8 +28,8 @@ li {
   display: inline-block;
   border-radius: 4px;
   padding: 6px 22px;
-  min-width: 128px;
-  margin-bottom: 34px;
+  min-width: 73px;
+  margin-bottom: 50px;
 
   background-color: var(--background-color);
   color: var(--primary-text-color);
@@ -84,6 +84,17 @@ li {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.87;
+}
+
+.card-image {
+  display: block;
+}
+
+.heading-title {
+  padding: 20px 24px;
+  border-right: 1px solid tomato;
+  border-bottom: 1px solid tomato;
+  border-left: 1px solid tomato;
 }
 
 .cart-list .style-hover {

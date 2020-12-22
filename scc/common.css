@@ -19,6 +19,7 @@ html {
 
   font-family: Roboto, sans-serif;
   letter-spacing: 0.02em;
+  margin: 0;
 }
 
 a {
@@ -46,6 +47,12 @@ p {
   width: 1px;
   height: 1px;
   margin: -1px;
+}
+
+.head {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #ececec;
 }
 
 /* main-nav */
@@ -189,6 +196,9 @@ p {
 /* Footer */
 
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
   background-color: var(--primary-text-color);
 }
 
@@ -231,6 +241,7 @@ p {
 }
 
 .footer-mail {
+  display: inline-block;
   margin-bottom: 9px;
 
   color: rgba(255, 255, 255, 0.6);
