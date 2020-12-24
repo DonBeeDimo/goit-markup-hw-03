@@ -14,6 +14,7 @@ li {
 .filter-nav {
   display: flex;
   justify-content: center;
+  padding-bottom: 50px;
 }
 
 .nav {
@@ -29,7 +30,7 @@ li {
   border-radius: 4px;
   padding: 6px 22px;
   min-width: 73px;
-  margin-bottom: 50px;
+  
 
   background-color: var(--background-color);
   color: var(--primary-text-color);
@@ -69,7 +70,9 @@ li {
 }
 
 .section-title {
-  margin-bottom: 4px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 4px;
 
   color: var(--primary-text-color);
 
